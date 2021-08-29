@@ -16,8 +16,9 @@
 
 #Para el ingreso al sistema hay que ejecutar los siguientes comandos:
 - composer install
-- php artisan serve
+- php artisan migrate
 - php artisan db:seed --class=DataUser (Este comando permite insertar un usuario por defecto)
+- php artisan serve
 
 #Usuario por defecto:
 - Email: prueba@gmail.com
