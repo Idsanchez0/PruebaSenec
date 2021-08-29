@@ -59,14 +59,16 @@
                 </a>
                 <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                     <!-- User image -->
-                    <li class="user-header bg-primary">
+                    <li style="height: 220px" class="user-header bg-primary">
                         <img src="https://assets.infyom.com/logo/blue_logo_150x150.png"
                              class="img-circle elevation-2"
                              alt="User Image">
                         <p>
                             {{ Auth::user()->name }}
-                            <small> Último inicio de sesión</small>
+                            <small> Último inicio de sesión:</small>
                             <small> {{ Auth::user()->last_login_at}}</small>
+                            <small> Último equipo conectado:</small>
+                            <small> {{ Auth::user()->last_login_ip}}</small>
                         </p>
                     </li>
                     <!-- Menu Footer-->
