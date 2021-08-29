@@ -4,15 +4,15 @@
 #Antes de proceder a ejecutar los comandos de instalación por favor tomar en cuenta lo siguiente:
 - Configurar el archivo .env para la base de datos.
 - Configurar el archivo .env con la siguiente información para recibir los correos electrónicos:
--- Configuracion de correos:
-    	MAIL_DRIVER=smtp
-	MAIL_HOST=smtp.gmail.com	
-	MAIL_PORT=465
-	MAIL_USERNAME=pruebaseneca
-	MAIL_PASSWORD=12345678PruebaSeneca
-	MAIL_ENCRYPTION=ssl
-	MAIL_FROM_ADDRESS=pruebaseneca@gmail.com
-	MAIL_FROM_NAME="PruebaSeneca"
+#Configuracion de correos:
+   	- MAIL_DRIVER=smtp
+	- MAIL_HOST=smtp.gmail.com	
+	- MAIL_PORT=465
+	- MAIL_USERNAME=pruebaseneca
+	- MAIL_PASSWORD=12345678PruebaSeneca
+	- MAIL_ENCRYPTION=ssl
+	- MAIL_FROM_ADDRESS=pruebaseneca@gmail.com
+	- MAIL_FROM_NAME="PruebaSeneca"
 
 #Para el ingreso al sistema hay que ejecutar los siguientes comandos:
 - composer install
