@@ -65,9 +65,9 @@
                              alt="User Image">
                         <p>
                             {{ Auth::user()->name }}
-                            <small> Último inicio de sesión:</small>
+                            <small> Último Inicio de Sesión:</small>
                             <small> {{ Auth::user()->last_login_at}}</small>
-                            <small> Último equipo conectado:</small>
+                            <small> Último Equipo Conectado:</small>
                             <small> {{ Auth::user()->last_login_ip}}</small>
                         </p>
                     </li>
